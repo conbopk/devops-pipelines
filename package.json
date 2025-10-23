@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "run": "node index.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -14,9 +15,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/conbopk/devops-pipelines/issues"
   },
-  "homepage": "https://github.com/conbopk/devops-pipelines#readme"
+  "homepage": "https://github.com/conbopk/devops-pipelines#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
